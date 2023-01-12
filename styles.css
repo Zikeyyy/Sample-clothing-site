@@ -1,0 +1,276 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding-bottom: 5vh;
+}
+
+h1 {
+    color: #132638;
+    font-family: 'Great Vibes', cursive;
+    margin-left: -30px;
+    height: 10vh;
+    font-size: 80px;
+}
+
+.h2 {
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
+}
+
+.narration {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #132638;
+    align-items: center;
+    font-size: 25px;
+    margin: 50px 0px 30px 0px;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: .2px rgb(36, 34, 34) dashed;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 320px;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.icons img {
+    transition: .7s ease-in-out;
+}
+
+.icons img:hover {
+    opacity: .2;
+}
+
+.icons .search:hover {
+    border-right: .5px rgb(36, 34, 34) dashed;
+}
+
+.icons .login {
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.icons .search {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-right: .5px rgb(36, 34, 34) dashed;
+}
+
+.icons .cart {
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.title-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo {
+    margin-left: 100px;
+    margin-right: 20PX;
+}
+
+.up_nav {
+    background-color: #E4E6E8;
+}
+
+.up_nav ul {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.up_nav ul li {
+    list-style-type: none;
+    color: #413939;
+}
+
+.up_nav a {
+    color: #132638;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    opacity: .7;
+}
+
+.up_nav a:hover {
+    font-weight: bold;
+    color: #0d1a25;
+}
+
+.main-posters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-posters img {
+    height: 350px;
+    margin: 30px;
+}
+
+.body-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: #e6ebf0;
+}
+
+.img-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    box-shadow: #051c30;
+    color: #494c52;
+    transition: .7s ease-in-out;
+}
+
+.img-wrap:hover {
+    background-color: rgba(93, 134, 168, 0.3);
+    color: #093053;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+
+#crop-top-poster {
+    transition: 1s ease-in-out;
+}
+
+#shirts-poster {
+    transition: 1s ease-in-out;
+}
+
+#trousers-poster {
+    transition: 1s ease-in-out;
+}
+
+#crop-top-poster {
+    transition: 1s ease-in-out;
+}
+
+#crop-top-poster:hover {
+    content: url(Images/1.jpg);
+    opacity: .7;
+}
+
+#shirts-poster:hover {
+    content: url(Images/5.jpg);
+    opacity: .7;
+}
+
+#trousers-poster:hover {
+    content: url(Images/8.jpg);
+    opacity: .7;
+}
+
+#dresses-poster:hover {
+    content: url(Images/62.jpg);
+    opacity: .7;
+}
+
+@keyframes img-changer {}
+
+@keyframes promo-effect {
+    from {
+        color: red;
+    }
+
+    to {
+        color: yellow;
+    }
+}
+
+.about {
+    margin: 100px 100px 50px 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #132638;
+}
+
+.about img {
+    width: 40vw;
+    height: 80vh;
+}
+
+.discription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #E4E6E8;
+    font-size: 20px;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-dis {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+
+}
+
+.dis-dis {
+    font-size: .9em;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.dis-dis p{
+    align-items: flex-end;
+}
+
+.btn {
+    padding: 10px;
+    width: 100px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: whitesmoke;
+    background-color: #093053;
+    transition: .7s ease-in-out;
+    stroke: none;
+    border: solid #051c30;
+}
+
+.follow-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.icon:hover {
+    opacity: .8;
+}
+
+.btn:hover{
+    opacity: .7;
+    border: solid #9aa3ac;
+} 
